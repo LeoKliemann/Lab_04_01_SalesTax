@@ -10,6 +10,7 @@ public class Main{
         //Statements
         taxTotal = priceOfPurchase * salesTax;
         priceAfterTax = taxTotal + priceOfPurchase;
+
         System.out.println("The price of your purchase after tax is: $" + priceAfterTax);
     }
 }
